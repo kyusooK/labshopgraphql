@@ -24,7 +24,7 @@ public class Delivery {
 
     private String customerId;
 
-    private Integer quantitiy;
+    private Integer quantity;
 
     private Long orderId;
 
@@ -43,29 +43,13 @@ public class Delivery {
 
     //<<< Clean Arch / Port Method
     public static void addToDeliveryList(OrderPlaced orderPlaced) {
-        //implement business logic here:
 
-        /** Example 1:  new item 
         Delivery delivery = new Delivery();
+        delivery.setId(orderPlaced.getId());
+        delivery.setCustomerId(orderPlaced.getCustomerId());
+        delivery.setOrderId(orderPlaced.getId());
+        delivery.setQuantity(orderPlaced.getQty());
         repository().save(delivery);
-
-        DeliveryStarted deliveryStarted = new DeliveryStarted(delivery);
-        deliveryStarted.publishAfterCommit();
-        */
-
-        /** Example 2:  finding and process
-        
-
-        repository().findById(orderPlaced.get???()).ifPresent(delivery->{
-            
-            delivery // do something
-            repository().save(delivery);
-
-            DeliveryStarted deliveryStarted = new DeliveryStarted(delivery);
-            deliveryStarted.publishAfterCommit();
-
-         });
-        */
 
     }
     //>>> Clean Arch / Port Method
