@@ -51,7 +51,7 @@
                             [ Id :  {{data.id }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ Address :  {{data.address }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ CustomerId :  {{data.customerId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            [ Quantitiy :  {{data.quantitiy }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ Quantity :  {{data.quantity }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ OrderId :  {{data.orderId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </v-list-item-subtitle>
 
@@ -122,7 +122,7 @@
             this.newValue = {
                 'address': '',
                 'customerId': '',
-                'quantitiy': 0,
+                'quantity': 0,
                 'orderId': 0,
             }
         },

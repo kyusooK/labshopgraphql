@@ -12,7 +12,7 @@
                 <String label="CustomerId" v-model="item.customerId" :editMode="editMode" @change="change" />
             </div>
             <div>
-                <Number label="Quantitiy" v-model="item.quantitiy" :editMode="editMode" @change="change" />
+                <Number label="Quantity" v-model="item.quantity" :editMode="editMode" @change="change" />
             </div>
             <div>
                 <Number label="OrderId" v-model="item.orderId" :editMode="editMode" @change="change" />

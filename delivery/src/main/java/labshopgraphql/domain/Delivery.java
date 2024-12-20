@@ -24,7 +24,7 @@ public class Delivery {
 
     private String customerId;
 
-    private Integer quantitiy;
+    private Integer quantity;
 
     private Long orderId;
 

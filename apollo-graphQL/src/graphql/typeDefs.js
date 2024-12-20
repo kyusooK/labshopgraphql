@@ -23,7 +23,7 @@ const typeDefs = gql`
     	id: Long! 
 			address: String 
 			customerId: String 
-			quantitiy: Integer 
+			quantity: Integer 
 			orderId: Long
     }
 

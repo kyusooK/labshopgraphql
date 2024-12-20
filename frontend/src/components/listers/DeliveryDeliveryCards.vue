@@ -106,7 +106,7 @@
             me.newValue = {
                 'address': '',
                 'customerId': '',
-                'quantitiy': 0,
+                'quantity': 0,
                 'orderId': 0,
             }
         },
